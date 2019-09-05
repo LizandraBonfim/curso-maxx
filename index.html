@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.hero.css">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.material.css"> -->
     <link rel="stylesheet" href="css/simple-sidebar.css">
+    <link rel="stylesheet" href="css/global.css">
     <script type="module" src="scripts/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 </head>
 
-<body>
+<body> 
 
+
+        
 
     <div class="d-flex" id="wrapper">
 
@@ -73,13 +77,18 @@
             </nav>
 
 
+            <div class="container">
+                <div class="row">
+                    <div id="page_container" class="col-md-8 blog-main">
+                        <article> Loading....</article>
+                    </div>
 
-            <div id="page_container" class="container-fluid">
-                <article> Loading....</article>
+                </div>
             </div>
 
-            <button id="btnProximaPagina" class="btn btn-primary float-right" >Proximo</button>
-            <button id="btnPaginaAnterior" class="btn btn-primary" >Anterior</button>
+
+            <button id="btnProximaPagina" class="btn btn-primary float-right">Proximo</button>
+            <button id="btnPaginaAnterior" class="btn btn-primary">Anterior</button>
 
 
         </div>
@@ -89,15 +98,17 @@
     <!-- /#wrapper -->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/popper.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
         $("#menu-toggle").click(function (e) {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
-        });
+        });       
+
     </script>
 
 

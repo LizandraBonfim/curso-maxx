@@ -2,8 +2,18 @@ const view = `
 <h1>FUNDAMENTOS DO SEGURO</h1>
 
       <ul>
-            <li>Risco (GLOSSÁRIO)</li>
-            <li>Personagens do Seguro</li>
+            <li class="cursor-dedinho" 
+                data-toggle="popover" 
+                title="GLOSSÁRIO"                 
+                data-content="Aqui vai algum tipo de conteúdo. Muito da hora, né?!" 
+            >Risco (GLOSSÁRIO) </li>
+
+            <li class="cursor-dedinho" 
+                data-toggle="popover" 
+                title="GLOSSÁRIO"                 
+                data-content="Aqui vai algum tipo de conteúdo. Muito da hora, né?!" 
+            >Personagens do Seguro</li>
+
             <li>Gerenciar o risco</li>
             <li>O que é prêmio de seguro?</li>
             <li>Como funcionam os seguros?</li>

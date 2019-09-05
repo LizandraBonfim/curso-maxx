@@ -9,6 +9,11 @@ const botaoPaginaAnterior = document.getElementById("btnPaginaAnterior");
 
 const registrarComportamentoDosBotoes = () => {
 
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+
+
     botaoProximaPagina
         .onclick = Navegacao.irParaProximaPagina;
 
@@ -36,6 +41,8 @@ const mostrarOuEsconderBotao = () => {
 // routes and then renders the corresponding content page.
 const router = async () => {
 
+    
+
     mostrarOuEsconderBotao();
 
     // Lazy load view element:    
@@ -46,7 +53,7 @@ const router = async () => {
     // Get the page from our hash of supported routes.
     // If the parsed URL is not in our list of supported routes, select the 404 page instead
     let page = Rotas[parsedURL] ? Rotas[parsedURL] : Error404;
-    content.innerHTML = await page.render();
+    content.innerHTML = `<div class="animated zoomIn"> ${ await page.render() } </div>`;
     await page.after_render();
 
 }
