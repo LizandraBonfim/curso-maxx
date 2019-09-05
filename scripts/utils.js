@@ -21,6 +21,20 @@ const Utils = {
     , sleep: (ms) => {
         return new Promise(resolver => setTimeout(resolver, ms));
     }
+
+    , getParsedUrl: ( ) => {
+    
+        // Get the parsed URl from the addressbar
+        const  request = Utils.parseRequestURL();
+    
+        // Parse the URL and if it has an id part, change it with the string ":id"
+        const persed = (request.resource ? '/' + request.resource : '/') + 
+            (request.id ? '/:id' : '') + 
+            (request.verb ? '/' + request.verb : '');
+    
+        return persed;
+        
+    }
 }
 
 export default Utils;
