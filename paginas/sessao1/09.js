@@ -1,6 +1,6 @@
 const view /** HTML */ = `
 
-<h1>Processo de Subscrição</h1>
+<br><br><h1>Processo de Subscrição</h1><br><br>
 
 <p>A subscrição determina quais propostas de seguro serão efetivamente aceitas (seguradas), quais os respectivos limites de responsabilidade nas indenizações, a que preço serão seguradas e sob quais condições. Para tomar uma decisão de subscrição, existem basicamente seis etapas: </p>
 <p>Avaliar as exposições a sinistros do demandante do seguro</p>
@@ -11,11 +11,11 @@ const view /** HTML */ = `
 <li>Determinar o prêmio apropriado</li>
 <li>Implementar a decisão de subscrição</li>
 <li>Monitorar as exposições a sinistros</li>
-</ul>
+</ul><br>
 <p>Embora os subscritores experientes nem sempre sigam cada uma dessas etapas estritamente, a sequência fornece uma estrutura sólida para a tomada de decisões. Por exemplo, à medida que cada informação é recebida, o subscritor considera como essa informação afetará as opções disponíveis. Da mesma forma, se o subscritor receber informações indicando que a proposta é claramente inaceitável, ele imediatamente deve implementar a decisão de rejeitá-la. </p>
-<h3>Avaliação das exposições a sinistros (risco)</h3>
+<br><h3>Avaliação das exposições a sinistros (risco)</h3><br>
 <p>Existe uma troca entre a necessidade de informação e o custo para obtê-la. Nesta etapa, informações são coletadas sobre o risco do seguro proposto. Os subscritores devem entender as atividades, operações e caráter de cada candidato e avaliar a necessidade de informação e o custo para obtê-la. Por exemplo, é provável que um subscritor investigue minuciosamente uma fábrica que usa derivados de petróleo como matéria prima. A inspeção de risco é então essencial. Ao contrário, ela não é geralmente necessária para um seguro de loja de varejo no shopping center da cidade. </p>
-<h3>Opções de subscrição</h3>
+<br><h3>Opções de subscrição</h3> <br>
 <p>Cada opção deve ser cuidadosamente avaliada e o subscritor deve escolher a melhor nas circunstâncias existentes. As três opções de subscrição são: </p>
 <ul>
 <li>Aceitar a proposta como foi enviada pelo corretor.</li>
@@ -23,11 +23,11 @@ const view /** HTML */ = `
 <li>Fazer uma contraproposta para aceitar o seguro com certas modificações.</li>
 </ul>
 
-<h3>Seleção da opção de subscrição</h3>
+<br><h3>Seleção da opção de subscrição</h3><br>
 <ul>
 <li>O subscritor deve decidir se aceita ou não a proposta, se aceita com modificações ou se rejeita. A rejeição é, às vezes, inevitável. No entanto, como não produz prêmio nem comissão, apenas despesa, os subscritores se esforçam por tornar a proposta aceitável dentro do objetivo da seguradora de fazer negócios lucrativos.</li></ul>
 
-<h3>Implementação da decisão de subscrição</h3>
+<br><h3>Implementação da decisão de subscrição</h3><br>
 
 <p>A implementação de decisões de subscrição geralmente envolve três etapas: </p>
 <ul>
@@ -35,7 +35,7 @@ const view /** HTML */ = `
 <li>Colocação em vigor a cobertura, enviando a apólice a unidade responsável ou preparando certificados de seguro.</li>
 <li>Registro da apólice para fins contábeis, estatísticos e de monitoramento. A área de TI insere as informações no sistema da seguradora. Ela deve ser codificada de modo a que a seguradora possa avaliar e acumular informações sobre precificação, requerimento de dados pelo órgão regulador e contabilidade.</li>
 </ul>
-<h3>Medição dos resultados da subscrição</h3>
+<br><h3>Medição dos resultados da subscrição</h3><br>
 <p>As seguradoras devem ser capazes de pagar as indenizações de sinistros e as demais despesas e obter um lucro para remunerar seus acionistas. Para determinar se uma seguradora é bem-sucedida é preciso examinar alguns índices de desempenho. São eles: </p>
 <ul>
 <li>A sinistralidade (S), que é a razão percentual entre as indenizações de sinistros ocorridos e os prêmios ganhos</li>

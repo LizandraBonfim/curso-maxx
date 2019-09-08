@@ -35,6 +35,17 @@ const Utils = {
         return persed;
         
     }
+
+    , htmlTooltip: () => {
+
+        return `            
+            class="cursor-dedinho"
+            data-placement="right"                
+            data-toggle="tooltip" 
+            style="width: fit-content;"              
+        `
+
+    }
 }
 
 export default Utils;

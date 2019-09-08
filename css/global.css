@@ -1,11 +1,11 @@
-.cursor-dedinho{
-    color: red;
+.teste:hover{
+    -color: #5b5b5f;
 }
-.cursor-dedinho:hover {
+.cursor-dedinho {
     cursor: pointer;
-    display: flex;
-    background-color: #0095ff;
-    color: White;
+    color: #9789e5;
+    text-decoration: underline;
+
 }
 
 #page-content-wrapper{
@@ -20,10 +20,22 @@ img {
     padding: 5px;
     border: 1px solid grey;
     width: 250px;
+    height: 200px;
     float: right;
     margin-left: 10px;
 }
 
 img:hover {
-    transform: scale(2.5);
+    transform: scale(2.0);
 }
+
+.text-box{
+    background-color: #df691a;
+    color: #faffff;
+    padding: 15px;
+    border: 1px solid #5b5b5f;
+    border-radius: 5px;
+    box-shadow: 14px 14px 6px 0px #252020;
+}
+
+

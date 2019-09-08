@@ -1,6 +1,6 @@
 const view /** HTML */ = `
 
-<h1>O que são reservas?</h1> <br>
+<br><br><h1>O que são reservas?</h1> <br>
 <p>As reservas ou provisões são valores matematicamente calculados pelas seguradoras, com base nos prêmios recebidos dos segurados, para garantia de indenizações de riscos assumidos. </p>
 <p>Elas indicam o montante de recursos que a empresa deve guardar no presente para cumprir com suas obrigações no futuro. </p>
 <p>A reserva de sinistro é uma estimativa do valor do sinistro avisado, corrigido posteriormente pelo valor da indenização efetivamente paga. Dependendo do ramo e do risco, outras reservas podem ser acrescentadas. </p>
@@ -8,7 +8,7 @@ const view /** HTML */ = `
 <p>Uma outra reserva muito frequente é a de sinistros ocorridos, porém não avisados à seguradora (IBNR – Incurred But Not Reported). Geralmente refere-se a sinistros avisados à seguradora não pelo segurado, mas pelo (s) beneficiário (s) ou por terceiros, quando se tratar de seguros de responsabilidade civil. </p>
 <p>As instituições de governo reguladoras do seguro fixam os percentuais mínimos que as seguradoras devem respeitar para constituição das provisões mais importantes. </p>
 
-<h2>Riscos seguráveis e não seguráveis</h2>
+<br><br><h2>Riscos seguráveis e não seguráveis</h2><br><br>
 <p>Utilizando o mercado de seguros, uma pessoa pode construir uma rede de proteção bastante efetiva em sua vida e suas propriedades. Mas nem todos os riscos são seguráveis. Pense nos seguintes riscos: </p>
 
 <ul>

@@ -16,3 +16,5 @@ const glossario = {
     , sindicancia:""
 
 }
+
+export {glossario} ;

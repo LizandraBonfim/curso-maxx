@@ -10,8 +10,10 @@ const botaoPaginaAnterior = document.getElementById("btnPaginaAnterior");
 const registrarComportamentoDosBotoes = () => {
 
     $(function () {
-        $('[data-toggle="popover"]').popover('click')
-    })
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+
+    
 
 
     botaoProximaPagina
