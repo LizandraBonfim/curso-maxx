@@ -10,7 +10,7 @@ const botaoPaginaAnterior = document.getElementById("btnPaginaAnterior");
 const registrarComportamentoDosBotoes = () => {
 
     $(function () {
-        $('[data-toggle="popover"]').popover()
+        $('[data-toggle="popover"]').popover('click')
     })
 
 

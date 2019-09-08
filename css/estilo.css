@@ -1,12 +1,3 @@
-.cursor-dedinho{
-    color: red;
-}
-.cursor-dedinho:hover {
-    cursor: pointer;
-    display: flex;
-    background-color: #0095ff;
-    color: White;
-}
 
 #page-content-wrapper{
     text-align: justify;
