@@ -1,3 +1,6 @@
+.textos{
+    font-size: 17px;
+}
 .teste:hover{
     -color: #5b5b5f;
 }
@@ -14,6 +17,7 @@
 
 #page_container{
     margin: 0px auto;
+    font-size: 20px;
 }
 img {
     background-color: white;
