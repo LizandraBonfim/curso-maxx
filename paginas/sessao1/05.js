@@ -2,7 +2,7 @@ import { glossario } from './glossario.js';
 import Utils from '../../scripts/utils.js';
 const view /** HTML */ = `
 
-<H1>FUNDAMENTOS DO SEGURO</H3>
+<br><h1>FUNDAMENTOS DO SEGURO</h1>
 
 <ul>
 <li ${Utils.htmlTooltip()}
