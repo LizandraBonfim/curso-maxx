@@ -11,12 +11,15 @@
 
 }
 
+
 #btnProximaPagina{
-    top:40px;
+    height: 40px;
+    top: 50%;
 }
 
 #btnPaginaAnterior{
-    top:40px;
+    height: 40px;
+    top: 50%;
 }
 
 #page-content-wrapper{
