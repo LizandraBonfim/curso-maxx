@@ -14,17 +14,17 @@ title="${glossario.segurado}">Segurado </li>
 <li ${Utils.htmlTooltip()}
 title="${glossario.seguradora}">Seguradora </li>
 <li ${Utils.htmlTooltip()}
-title="${glossario.corretor}">Corretor de Seguros</li>
+title="${glossario.corretorDeSeguros}">Corretor de Seguros</li>
 <li ${Utils.htmlTooltip()}
 title="${glossario.preposto}">Preposto </li>
 <li ${Utils.htmlTooltip()}
 title="${glossario.beneficiario}">Beneficiário </li>
 <li ${Utils.htmlTooltip()}
-title="${glossario.estipulante}">Estipulante de Seguro</li>
+title="${glossario.estipulanteDoSeguro}">Estipulante de Seguro</li>
 <li ${Utils.htmlTooltip()}
 title="${glossario.cosseguro}">Cosseguro </li>
 <li ${Utils.htmlTooltip()}
-title="${glossario.resseguro}">Ressegurador</li>
+title="${glossario.ressegurador}">Ressegurador</li>
 </ul>
 
 

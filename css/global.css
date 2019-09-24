@@ -1,5 +1,5 @@
 .textos{
-    font-size: 17px;
+    font-size: 16px;
 }
 .teste:hover{
     -color: #5b5b5f;
@@ -9,6 +9,14 @@
     color: #9789e5;
     text-decoration: underline;
 
+}
+
+#btnProximaPagina{
+    top:40px;
+}
+
+#btnPaginaAnterior{
+    top:40px;
 }
 
 #page-content-wrapper{
@@ -27,6 +35,13 @@ img {
     height: 200px;
     float: right;
     margin-left: 10px;
+}
+
+#sidebar-wrapper{
+    overflow: auto;
+    float: left;
+    height: 100vh;
+
 }
 
 img:hover {

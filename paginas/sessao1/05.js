@@ -8,7 +8,7 @@ const view /** HTML */ = `
 <li ${Utils.htmlTooltip()}
 title="${glossario.risco}">Risco </li>
 <li ${Utils.htmlTooltip()}
-title="${glossario.personagens}">Personagens do Seguro </li>
+title="${glossario.personagem}">Personagens do Seguro </li>
 <li>Gerenciar o risco</li>
 <li>O que é prêmio de seguro?   </li>
 <li>Como funcionam os seguros?</li>

@@ -8,7 +8,8 @@ const view /** HTML */ = `
 
 <p><strong>b) Mutualismo: </strong> é divisão das perdas entre os interessados. Historicamente, esse foi o começo do seguro: navegadores se reuniam e estimavam as perdas anuais no patrimônio conjunto (embarcações e suas cargas). Então, repartiam essa perda estimada entre eles, segundo a participação de cada um no patrimônio total. Atualmente, o mutualismo ainda é utilizado pelas seguradoras em alguns países, mas pouco usado pelos consumidores. Estes optam por não incorrer nos elevados custos de administração da modalidade, que exige conhecimento especializado. </p>
 <br>
-<p><strong>c) Seguro: </strong> é a opção moderna e mais usada de gerenciamento do risco. Envolve a transferência do risco de perda de uma entidade (empresa ou indivíduo) para outra entidade (seguradora) que assume os riscos e recebe em troca um prêmio (GLOSSÁRIO). O conjunto dos prêmios de vários riscos, muitos sem sinistro, permite às seguradoras formar reservas para pagar os sinistros. </p>
+<p><strong>c) Seguro: </strong> é a opção moderna e mais usada de gerenciamento do risco. Envolve a transferência do risco de perda de uma entidade (empresa ou indivíduo) para outra entidade (seguradora) que assume os riscos e recebe em troca um  <spam ${Utils.htmlTooltip()}
+title="${glossario.premio}"> prêmio </spam>. O conjunto dos prêmios de vários riscos, muitos sem sinistro, permite às seguradoras formar reservas para pagar os sinistros. </p>
 </div>
 `;
 let Session_11 = {

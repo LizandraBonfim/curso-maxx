@@ -7,9 +7,9 @@ const view /** HTML */ = `
 <br>
 <ul>
 <li ${Utils.htmlTooltip()}
-title="${glossario.CNSP}">Conselho Nacional de Seguros Privados – CNSP </li>
+title="${glossario.cnsp}">Conselho Nacional de Seguros Privados – CNSP </li>
 <li ${Utils.htmlTooltip()}
-title="${glossario.SUSEP}">Superintendência de Seguros Privados – SUSEP</li>
+title="${glossario.susep}">Superintendência de Seguros Privados – SUSEP</li>
 <li ${Utils.htmlTooltip()}
 title="${glossario.IRB}">IRB Brasil Resseguros S/A – IRB-Brasil Re</li>
 <li ${Utils.htmlTooltip()}

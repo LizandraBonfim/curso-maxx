@@ -232,7 +232,7 @@ const glossario = {
     , vistoriaDeSinistro: "Visita ao local onde se encontram os bens sinistrados a fim de apurar o montante dos prejuízos sofridos pelo segurado, decorrentes do evento previsto e coberto pelo contrato de seguro. Parte inferior do formulário."
     , vistoriador :"Representante da seguradora encarregado de regular e liquidar um determinado sinistro."
     , zoneamentoAgricola :"Trabalho técnico conduzido pela Embrapa, com coordenação do Ministério da Agricultura, Pecuária e Abastecimento (MAPA), que procura definir os períodos favoráveis ao plantio de cada cultura em cada município, levando em consideração o histórico de eventos climáticos ocorridos (temperatura, granizo, geada e seca, entre outros) e os tipos de solo existentes. Além disso, também informa as cultivares habilitadas (recomendadas) e seus produtores (detentores da semente). É divulgado pelo MAPA no início de cada ano agrícola ou ciclo de plantio."
-
+    , susep: "É o orgão responsavel pela regulação, supervisão, controle, fiscalização e incentivo das atividades de seguros."
 
 
 

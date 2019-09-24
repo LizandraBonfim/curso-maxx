@@ -41,7 +41,7 @@ import Session_38 from '../paginas/sessao1/38.js';
 import Session_39 from '../paginas/sessao1/39.js';
 import Session_40 from '../paginas/sessao1/40.js';
 import Session_41 from '../paginas/sessao1/41.js';
-
+import questoes from '../paginas/sessao1/questoes.js';
 
 
 // List of supported routes. Any url other than these routes will throw a 404 error
@@ -87,7 +87,8 @@ const Rotas = {
   , '/session_39':    Session_39
   , '/session_40':    Session_40
   , '/session_41':    Session_41
-
+  , '/questoes':    questoes
+  
 
 
 
