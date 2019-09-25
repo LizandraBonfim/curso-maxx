@@ -1,5 +1,6 @@
 'use strict';
 
+import Session_00 from '../paginas/sessao1/00.js';
 import Session_01 from '../paginas/sessao1/01.js';
 import Session_02 from '../paginas/sessao1/02.js';
 import Session_03 from '../paginas/sessao1/03.js';
@@ -46,7 +47,8 @@ import questoes from '../paginas/sessao1/questoes.js';
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const Rotas = {
-    '/':              Session_01
+   '/':    Session_00
+  , '/session_01':    Session_01
   , '/session_02':    Session_02
   , '/session_03':    Session_03
   , '/session_04':    Session_04

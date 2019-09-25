@@ -24,8 +24,8 @@ let Questoes = {
             "correct": "b)	SUSEP"
         }, {
             "question": "O que é prêmio do seguro?? ",
-            "choices": [ " <br>a ) É a soma em dinheiro paga pelo segurado ao segurador para que este assuma a responsabilidade de indenizá-lo por determinado risco  de <br>perda.", "<br>b)	Reserva de sinistros ocorridos, mas não avisados", "<br>c)	É um documento expedido pela seguradora durante a vigência da apólice, que tem como objetivo a alteração, modificação ou transferência <br>de dados do contrato de seguro.", "<br>d)	Documento de aceitação do seguro.",],
-            "correct": "a ) É a soma em dinheiro paga pelo segurado ao segurador para que este assuma a responsabilidade de indenizá-lo por determinado risco de perda."
+            "choices": [ "<br>a ) É a soma em dinheiro paga pelo segurado ao segurador para que este assuma a responsabilidade de indenizá-lo por determinado risco  de <br>perda.", "<br>b)	Reserva de sinistros ocorridos, mas não avisados", "<br>c)	É um documento expedido pela seguradora durante a vigência da apólice, que tem como objetivo a alteração, modificação ou transferência <br>de dados do contrato de seguro.", "<br>d)	Documento de aceitação do seguro.",],
+            "correct": "<br>a ) É a soma em dinheiro paga pelo segurado ao segurador para que este assuma a responsabilidade de indenizá-lo por determinado risco  de <br>perda."
         }]
             ;
         
@@ -51,7 +51,7 @@ let Questoes = {
         
             // loop through choices, and create radio buttons
             for (var i = 0; i < choices.length; i++) {
-                choicesHtml += "<input type='radio' name='quiz" + currentQuestion +
+                choicesHtml += "<input type='radio'  name='quiz' required" + currentQuestion +
                     "' id='choice" + (i + 1) +
                     "' value='" + choices[i] + "'>" +
                     " <label for='choice" + (i + 1) + "'>" + choices[i] + "</label><br>";

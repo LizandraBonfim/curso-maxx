@@ -1,4 +1,6 @@
 const view /** HTML */ = `
+
+
 <h1>BÁSICO DE SEGUROS</h1> 
 <h3>HISTÓRIA DO SEGURO</h3>
 <img src="http://www.tudosobreseguros.org.br/wp-content/uploads/2017/05/TSS_Home_Um_Pouco_de_Historia_Caravana_Deserto_v2.jpg">
