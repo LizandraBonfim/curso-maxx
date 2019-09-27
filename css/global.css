@@ -1,8 +1,11 @@
+.container-fluid{
+    margin: 0px auto;
+}
 .textos{
     font-size: 16px;
 }
 .teste:hover{
-    -color: #5b5b5f;
+    color: #5b5b5f;
 }
 .cursor-dedinho {
     cursor: pointer;
