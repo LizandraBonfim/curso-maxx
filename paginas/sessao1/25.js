@@ -1,11 +1,11 @@
 
 const view /** HTML */ = `
 
-<br><h3>Importância social e econômica do seguro</h3><br>
-<p>Suponha que um segurado pague um prêmio de R$ 1.500,00 por uma apólice de seguro de automóveis contra roubo, colisão e danos a terceiros. </p>
-<p>Se não acontecer o sinistro, o segurado não ficará triste por ter pago os R$ 1.500,00. Afinal, ele despendeu um valor relativamente pequeno que lhe permitiu se livrar de uma perda potencial grande. </p>
-<p>De fato, a seguradora pode ter que pagar R$ 50.000,00 se houver uma colisão com perda total e, quem sabe, R$ 300 mil se da colisão resultar um ferimento traumático a terceiro. </p>
-<p>O mesmo vale para outras situações de risco, como por exemplo, uma empresa que está realizando investimentos elevados e quer se precaver contra riscos de incêndio na nova planta. </p>
+<br><h4>O que é e como são calculadas as reservas das seguradoras</h4><br>
+<img src="http://www.tudosobreseguros.org.br/wp-content/uploads/2017/10/TSS_QUEMSOMOS_PROVIS%C3%95ES.jpg">
+<h4>O que são reservas técnicas?</h4><br>
+<p>As reservas técnicas, também chamadas de provisões técnicas são, simplificadamente, o quanto de dinheiro a seguradora precisa manter (reservar) em seu balanço de modo a arcar com os compromissos que deverá assumir com seus segurados. </p>
+<p>O correto dimensionamento das provisões técnicas é de fundamental importância para a saúde financeira da seguradora. Se forem superdimensionadas, prejudicam a distribuição de lucros aos acionistas; se forem subdimensionadas, ameaçam a solvência das empresas. O atuário é o profissional responsável por seu cálculo. </p>
 
 
 `;

@@ -1,12 +1,14 @@
 
 const view /** HTML */ = `
 
-<br><p>A implementação de decisões de subscrição geralmente envolve três etapas: </p>
-<ul>
-<li>Contato com o corretor (e outros envolvidos) informando a decisão. Se a decisão for aceitar a proposta com modificações, as razões devem ser claramente comunicadas e o solicitante deve concordar com as modificações. Se o pedido for rejeitado, deve ser comunicado o motivo pelo qual a proposta não atende aos requisitos de subscrição da seguradora.</li>
-<li>Colocação em vigor a cobertura, enviando a apólice a unidade responsável ou preparando certificados de seguro.</li>
-<li>Registro da apólice para fins contábeis, estatísticos e de monitoramento. A área de TI insere as informações no sistema da seguradora. Ela deve ser codificada de modo a que a seguradora possa avaliar e acumular informações sobre precificação, requerimento de dados pelo órgão regulador e contabilidade.</li>
+<h3>O dever do segurador</h3>
 
+<p>
+O primeiro objetivo do departamento de sinistros é satisfazer as obrigações da seguradora para com o segurado, conforme estabelecido no contrato de seguro.
+<br><br>Em um seguro residencial, por exemplo, a promessa da seguradora é garantir ao segurado o pagamento de indenização por prejuízos na sua residência decorrentes de riscos cobertos na apólice. Em um seguro de responsabilidade civil, a promessa é pagar a terceiro em nome do segurado indenizações por danos que ele causou e pelos quais é legalmente responsável, até o limite aplicável do seguro.
+<br><br>O seguro é vendido não apenas como mecanismo para reparar a perda financeira do segurado, mas também para lhe dar tranquilidade. Para o segurado, o sinistro e suas consequências não são rotineiras e, na verdade, podem ser esmagadoras.
+<br><br>A seguradora cumpre sua promessa fornecendo então um serviço justo, rápido e equitativo seja pagando diretamente ao segurado ou seus beneficiários, como no caso do seguro residencial, seja pagando a um terceiro, quando envolve reclamação feita contra o segurado e coberta pelo seguro (caso do seguro de responsabilidade civil).
+</p>
 
 
 `;

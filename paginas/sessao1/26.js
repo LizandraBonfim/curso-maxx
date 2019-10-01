@@ -1,10 +1,8 @@
-
 const view /** HTML */ = `
-<br>
-<p>Essa aritmética só é possível por que a seguradora sabe, de antemão, que apenas uma proporção do total de segurados será sinistrada e, portanto, demandará indenização. E, no processo do seguro, ganham tanto segurados quanto seguradoras. </p>
-<p>Assim, a disponibilidade do seguro incentiva a economia, pois o consumidor segurado tem tranquilidade para adquirir bens de valor mais alto, e o empresário segurado, por sua vez, confiança para realizar investimentos que podem exigir recursos vultosos, seus e de terceiros. </p>
-<p>Inversamente, sem seguro, é possível prever que diversas ações de consumo e investimento, principalmente as de maior valor e risco, não existiriam ou seriam em muito diminuídas, com prejuízos para a economia do pais. </p>
 
+<br><h2>O QUE É SUBSCRIÇÃO DE SEGUROS</h2><br><br>
+<p>Ao segurar indivíduos, famílias e organizações, as seguradoras assumem riscos de bilhões de reais a cada ano. O processo pelo qual aceitam ou rejeitam novos contratos e renovações de contratos antigos se chama subscrição (em inglês, <strong>underwriting</strong>) e envolve várias etapas e ferramentas. </p>
+<p>O objetivo da subscrição é manter a lucratividade da seguradora ao longo do tempo. A qualidade de processo de subscrição e os resultados favoráveis daí resultantes são necessários para que a firma cresça a longo prazo. </p>
 
 `;
 let Session_26 = {

@@ -1,26 +1,34 @@
 import { glossario } from './glossario.js';
 import Utils from '../../scripts/utils.js';
 const view /** HTML */ = `
+<H2>ESTRUTURA DE MERCADO DE SEGUROS</H2>
+<br>
+<P>O Sistema Nacional de Seguros Privados, instituído pelo Decreto-Lei n.º 73, de 1966, e alterado por legislações posteriores, tem a seguinte composição.</P>
 
-<br><h1>FUNDAMENTOS DO SEGURO</h1>
+
+<img src="Video/estrutura.png">
 
 <ul>
 <li ${Utils.htmlTooltip()}
-title="${glossario.risco}">Risco </li>
+title="${glossario.segurado}">Segurado </li>
 <li ${Utils.htmlTooltip()}
-title="${glossario.personagem}">Personagens do Seguro </li>
-<li>Gerenciar o risco</li>
-<li>O que é prêmio de seguro?   </li>
-<li>Como funcionam os seguros?</li>
-<li>Riscos seguráveis e não seguráveis</li>
-<li>Importância social e econômica do seguro</li>
+title="${glossario.seguradora}">Seguradora </li>
+<li ${Utils.htmlTooltip()}
+title="${glossario.corretorDeSeguros}">Corretor de Seguros</li>
+<li ${Utils.htmlTooltip()}
+title="${glossario.preposto}">Preposto </li>
+<li ${Utils.htmlTooltip()}
+title="${glossario.beneficiario}">Beneficiário </li>
+<li ${Utils.htmlTooltip()}
+title="${glossario.estipulanteDoSeguro}">Estipulante de Seguro</li>
+<li ${Utils.htmlTooltip()}
+title="${glossario.cosseguro}">Cosseguro </li>
+<li ${Utils.htmlTooltip()}
+title="${glossario.ressegurador}">Ressegurador</li>
 </ul>
 
 
-
 `;
-
-
 let Session_05 = {
     render: async () => view,
     after_render: async () => { }

@@ -1,17 +1,12 @@
 
 const view /** HTML */ = `
 
-
-
-<br><p>Alguns riscos não seguráveis são importantes para a economia como um todo. Nesses casos, os governos costumam assumi-los, estabelecendo os chamados seguros sociais, de interesse geral. É o caso do seguro-desemprego e os sistemas estatais de previdência e assistência social. </p>
-<p>No seguro-desemprego, observa-se concentração de riscos, porque o desemprego costuma evoluir em ondas periódicas que afetam grande número de trabalhadores ao mesmo tempo. </p>
-<p>Nos sistemas de previdência e assistência social, o principal problema é a seleção adversa, ou seja, a maioria dos segurados constitui risco elevado e não suportaria prêmios fixados com parâmetros de mercado. </p>
-
-
-
-
-
 <br>
+<p>Essa aritmética só é possível por que a seguradora sabe, de antemão, que apenas uma proporção do total de segurados será sinistrada e, portanto, demandará indenização. E, no processo do seguro, ganham tanto segurados quanto seguradoras. </p>
+<p>Assim, a disponibilidade do seguro incentiva a economia, pois o consumidor segurado tem tranquilidade para adquirir bens de valor mais alto, e o empresário segurado, por sua vez, confiança para realizar investimentos que podem exigir recursos vultosos, seus e de terceiros. </p>
+<p>Inversamente, sem seguro, é possível prever que diversas ações de consumo e investimento, principalmente as de maior valor e risco, não existiriam ou seriam em muito diminuídas, com prejuízos para a economia do pais. </p>
+
+
 
 `;
 let Session_24 = {

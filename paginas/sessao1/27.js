@@ -1,10 +1,9 @@
 
 const view /** HTML */ = `
-<br><h4>O que é e como são calculadas as reservas das seguradoras</h4><br>
-<img src="http://www.tudosobreseguros.org.br/wp-content/uploads/2017/10/TSS_QUEMSOMOS_PROVIS%C3%95ES.jpg">
-<h4>O que são reservas técnicas?</h4><br>
-<p>As reservas técnicas, também chamadas de provisões técnicas são, simplificadamente, o quanto de dinheiro a seguradora precisa manter (reservar) em seu balanço de modo a arcar com os compromissos que deverá assumir com seus segurados. </p>
-<p>O correto dimensionamento das provisões técnicas é de fundamental importância para a saúde financeira da seguradora. Se forem superdimensionadas, prejudicam a distribuição de lucros aos acionistas; se forem subdimensionadas, ameaçam a solvência das empresas. O atuário é o profissional responsável por seu cálculo. </p>
+
+<br><h3>Lucratividade</h3><br>
+<p>Uma companhia de seguros deve obter um lucro adequado se deseja aumentar a venda de seguros. A capacidade de gerar prêmios é limitada por normas regulatórias e, muitas vezes, por restrições voluntárias até mais restritivas. </p>
+<p>Se as práticas de subscrição geram contratos cujos prêmios excedem as indenizações e demais despesas, o lucro subsequente elevará a capacidade da seguradora. Os subscritores asseguram lucros adequados à companhia ao aderirem a diretrizes de subscrição emanadas da direção da seguradora. Estas devem garantir precisa identificação e avaliação dos riscos e cobrança de prêmios de seguros atuarialmente corretos. </p>
 
 
 

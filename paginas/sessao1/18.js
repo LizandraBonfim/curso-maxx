@@ -1,12 +1,17 @@
 
 const view /** HTML */ = `
 
+<br><h2>Riscos seguráveis e não seguráveis</h2><br><br>
+<p>Utilizando o mercado de seguros, uma pessoa pode construir uma rede de proteção bastante efetiva em sua vida e suas propriedades. Mas nem todos os riscos são seguráveis. Pense nos seguintes riscos: </p>
 
-<br><h1>O que são reservas?</h1> <br>
-<p>As reservas ou provisões são valores matematicamente calculados pelas seguradoras, com base nos prêmios recebidos dos segurados, para garantia de indenizações de riscos assumidos. </p>
-<p>Elas indicam o montante de recursos que a empresa deve guardar no presente para cumprir com suas obrigações no futuro. </p>
-<p>A reserva de sinistro é uma estimativa do valor do sinistro avisado, corrigido posteriormente pelo valor da indenização efetivamente paga. Dependendo do ramo e do risco, outras reservas podem ser acrescentadas. </p>
-<p>Por exemplo, em apólices que cobrem riscos de baixa frequência e alta gravidade, pode ser necessário constituir reservas contra catástrofes, lembrando que as reservas da seguradora se referem às responsabilidades por ela assumidas excluídas as responsabilidades resseguradas ou cosseguradas. </p>
+<ul>
+<li>Você tem uma carteira de ações e teme que os papéis caiam fortemente de valor.</li>
+<li>Você abriu uma empresa e teme não ser capaz de atingir a taxa de lucro que estimou.</li>
+<li>Você vai viajar para uma região conturbada e teme ser vítima de um atentado terrorista.</li>
+<li>Você precisa tirar certa nota num exame da faculdade e teme não ser capaz de fazê-lo.</li>
+<li>Você vai jogar num cassino e teme perder o dinheiro que reservou para isso.</li>
+</ul>
+
 
 
 `;

@@ -1,9 +1,9 @@
 
 const view /** HTML */ = `
-<br><h2>O QUE É SUBSCRIÇÃO DE SEGUROS</h2><br><br>
-<p>Ao segurar indivíduos, famílias e organizações, as seguradoras assumem riscos de bilhões de reais a cada ano. O processo pelo qual aceitam ou rejeitam novos contratos e renovações de contratos antigos se chama subscrição (em inglês, underwriting) e envolve várias etapas e ferramentas. </p>
-<p>O objetivo da subscrição é manter a lucratividade da seguradora ao longo do tempo. A qualidade de processo de subscrição e os resultados favoráveis daí resultantes são necessários para que a firma cresça a longo prazo. </p>
 
+<br><h3>Responsabilidades do subscritor</h3><br>
+<p>Os subscritores devem revisar a proposta de seguro e, em seguida, fixar a taxa apropriada, ou rejeitar a proposta. Diretrizes preestabelecidas podem, por exemplo, restringir a aceitação de seguros de automóveis de motoristas com menos de 21 anos de idade ou de seguros residenciais em áreas de furacão, mas, em cada caso, a decisão depende muito experiência e julgamento pessoais. </p>
+<p>O subscritor deve também ser capaz de julgar as intenções do segurado. Se a moral do candidato for questionável, o subscritor provavelmente recusará o seguro, independente da solidez da sua empresa ou da sua saúde. </p>
 
 `;
 let Session_28 = {

@@ -1,20 +1,12 @@
 
 const view /** HTML */ = `
 
-<br><h2>Processo de Subscrição</h2>
-
-<p>A subscrição determina quais propostas de seguro serão efetivamente aceitas (seguradas), quais os respectivos limites de responsabilidade nas indenizações, a que preço serão seguradas e sob quais condições. Para tomar uma decisão de subscrição, existem basicamente seis etapas: </p>
-<p>Avaliar as exposições a sinistros do demandante do seguro</p>
+<br><h3>Seleção da opção de subscrição</h3><br>
 <ul>
+<li>O subscritor deve decidir se aceita ou não a proposta, se aceita com modificações ou se rejeita. A rejeição é, às vezes, inevitável. No entanto, como não produz prêmio nem comissão, apenas despesa, os subscritores se esforçam por tornar a proposta aceitável dentro do objetivo da seguradora de fazer negócios lucrativos.</li></ul>
 
-<li>Determinar as opções de subscrição</li>
-<li>Selecionar uma opção de subscrição</li>
-<li>Determinar o prêmio apropriado</li>
-<li>Implementar a decisão de subscrição</li>
-<li>Monitorar as exposições a sinistros</li>
 </ul>
 
-<p class"textos">Embora os subscritores experientes nem sempre sigam cada uma dessas etapas estritamente, a sequência fornece uma estrutura sólida para a tomada de decisões. Por exemplo, à medida que cada informação é recebida, o subscritor considera como essa informação afetará as opções disponíveis. Da mesma forma, se o subscritor receber informações indicando que a proposta é claramente inaceitável, ele imediatamente deve implementar a decisão de rejeitá-la. </p>
 `;
 let Session_32 = {
     render: async () => view,

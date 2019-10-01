@@ -1,13 +1,11 @@
-import { glossario } from './glossario.js';
-import Utils from '../../scripts/utils.js';
+
 const view /** HTML */ = `
 
-<br><p>O seguro envolve, ainda, a agregação do risco e divisão das perdas (ou mutualismo), pois as seguradoras agrupam riscos semelhantes em  <spam ${Utils.htmlTooltip()}
-title="${glossario.carteira}"> carteiras</spam> distintas, de modo a melhor estimar as respectivas perdas e prêmios de seguros. O risco é transferido, pois a seguradora tem de arcar com as indenizações referentes a determinada carteira, mesmo quando a soma dos prêmios recolhidos for inferior ao valor das indenizações. Se esse prejuízo ocorrer continuamente, a seguradora não está sendo bem conduzida: falha na <spam ${Utils.htmlTooltip()}
-title="${glossario.aceitacao}"> aceitação</spam> e no apreçamento dos riscos. </p>
 
-
-
+<p>
+<br>Essa operação poderá resultar na emissão de um contrato de seguro ou certificado de cobertura. A apólice será enviada posteriormente. Ao receber a apólice, é importante que o segurado verifique se as condições ali contidas são as mesmas que informou ao corretor de seguros quando assinou o contrato.
+<br><br>A origem do termo vem do francês “police” e do italiano “polizza”, ambos tendo por origem o latim “pollicitatio” ou promessa, no caso, de pagar indenização por perda que teve como contrapartida o pagamento anterior de um prêmio.
+</p>
 
 `;
 let Session_12 = {

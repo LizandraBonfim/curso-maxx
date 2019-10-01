@@ -1,13 +1,14 @@
 
 const view /** HTML */ = `
 
-<br><h3>Seleção da opção de subscrição</h3><br>
-<ul>
-<li>O subscritor deve decidir se aceita ou não a proposta, se aceita com modificações ou se rejeita. A rejeição é, às vezes, inevitável. No entanto, como não produz prêmio nem comissão, apenas despesa, os subscritores se esforçam por tornar a proposta aceitável dentro do objetivo da seguradora de fazer negócios lucrativos.</li></ul>
+<h3>Objetivos da regulação de sinistros</h3>
 
-</ul>
+<p>
+Os objetivos da regulação de sinistros são manter a promessa da seguradora feita na apólice e apoiar sua meta de lucro.
+<br><br>As pessoas compram seguro para se proteger contra perdas derivadas de determinadas riscos. Quando o segurado faz um aviso de sinistro, a seguradora é convocada a honrar a promessa feita quanto emitiu a apólice – a saber, indenizá-lo pelas perdas financeiras decorrentes do sinistro e relacionada a risco previsto na apólice.
+<br><br>Isso não implica que a seguradora pagará todos os pedidos de indenização. Implica que o departamento de sinistros conduzirá uma investigação de boa-fé sobre os avisos de sinistros e pagará somente as indenizações sobre riscos cobertos na apólice.
 
-
+</p>
 `;
 let Session_34 = {
     render: async () => view,

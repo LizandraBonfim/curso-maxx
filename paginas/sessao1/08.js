@@ -2,26 +2,24 @@ import { glossario } from './glossario.js';
 import Utils from '../../scripts/utils.js';
 const view /** HTML */ = `
 
-<br><br>
-<p>Além das instituições que compõe o Sistema Nacional de Seguros Privados, cabe destacar outras importantes entidades que integram o mercado de seguros, previdência complementar aberta e capitalização:</p>
-<br>
+<br><h1>FUNDAMENTOS DO SEGURO</h1>
+
 <ul>
 <li ${Utils.htmlTooltip()}
-title="${glossario.cnsp}">Conselho Nacional de Seguros Privados – CNSP </li>
-<li ${Utils.htmlTooltip()}
-title="${glossario.susep}">Superintendência de Seguros Privados – SUSEP</li>
-<li ${Utils.htmlTooltip()}
-title="${glossario.IRB}">IRB Brasil Resseguros S/A – IRB-Brasil Re</li>
-<li ${Utils.htmlTooltip()}
-title="${glossario.ANS}">Agência Nacional de Saúde Suplementar – ANS</li>
+title="${glossario.risco}">Risco </li>
+
+<li>Gerenciar o risco</li>
+<li>O que é prêmio de seguro?   </li>
+<li>Como funcionam os seguros?</li>
+<li>Riscos seguráveis e não seguráveis</li>
+<li>Importância social e econômica do seguro</li>
 </ul>
 
 
-
 `;
+
 let Session_08 = {
     render: async () => view,
     after_render: async () => { }
 }
-
 export default Session_08;

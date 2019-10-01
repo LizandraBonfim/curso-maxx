@@ -2,8 +2,12 @@ import { glossario } from './glossario.js';
 import Utils from '../../scripts/utils.js';
 const view /** HTML */ = `
 
-<br><br><h1>Como funcionam os seguros?</h1> <br>
-<p>O seguro é um contrato entre um indivíduo ou uma empresa (segurado) e uma seguradora. O segurado paga um preço chamado “prêmio” e a companhia, em troca, compromete-se pagar a eventual perda financeira correspondente, durante o período da apólice. </p>
+
+<br><h1>Gerenciar o risco</h1><br><img src="Video/risco.png">
+<p>A inevitável realidade do risco levou a humanidade a procurar gerenciar o risco. Existem duas atitudes básicas, a saber:        </p>
+<br><h2>I. Evitar o risco</h2><br>
+
+<p>É o caso do indivíduo que, planejando viajar de carro, ao observar os pneus gastos do seu automóvel, desiste de viajar. Reduzir o Risco no caso anterior, o indivíduo viaja, mas a uma velocidade baixa de modo a evitar ter de frear bruscamente e arriscar uma derrapagem perigosa.</p>
 
 
 

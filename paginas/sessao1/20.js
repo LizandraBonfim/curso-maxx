@@ -1,17 +1,14 @@
-
+import { glossario } from './glossario.js';
+import Utils from '../../scripts/utils.js';
 const view /** HTML */ = `
 
-
-<br><h2>Riscos seguráveis e não seguráveis</h2><br><br>
-<p>Utilizando o mercado de seguros, uma pessoa pode construir uma rede de proteção bastante efetiva em sua vida e suas propriedades. Mas nem todos os riscos são seguráveis. Pense nos seguintes riscos: </p>
-
-<ul>
-<li>Você tem uma carteira de ações e teme que os papéis caiam fortemente de valor.</li>
-<li>Você abriu uma empresa e teme não ser capaz de atingir a taxa de lucro que estimou.</li>
-<li>Você vai viajar para uma região conturbada e teme ser vítima de um atentado terrorista.</li>
-<li>Você precisa tirar certa nota num exame da faculdade e teme não ser capaz de fazê-lo.</li>
-<li>Você vai jogar num cassino e teme perder o dinheiro que reservou para isso.</li>
+<br><ul>
+<li class"textos">Experiência suficiente (cálculo correto de probabilidades): pode ser que os eventos sejam independentes e que haja grande número de interessados no seguro, mas se houver grande imprevisibilidade, como nos casos de guerras ou atentados terroristas, o seguro não será feito, ou estes riscos serão excluídos da apólice, que é o mais provável. </li>
+<br>
+<li class"textos">Baixa incidência de <spam ${Utils.htmlTooltip()}
+title="${glossario.riscoMoral}">“Risco moral”</spam> : é a possibilidade de uma pessoa ou empresa, depois de estar segura, comportar-se diferentemente do que faria se estivesse inteiramente exposta ao risco. O caso típico é o do indivíduo que fez seguro contra roubo de automóvel e, depois disso, tornou-se menos vigilante com seu carro. Ele age assim porque as consequências negativas do roubo não serão suas, mas de responsabilidade da companhia de seguros. </li>
 </ul>
+
 
 
 

@@ -1,10 +1,13 @@
 
 const view /** HTML */ = `
 
-<br>
-<p>É fácil calcular esses índices para um período passado. Suponha que em 2017, a seguradora X tenha ganho R$ 1.000.000 em prêmios de seguros e pago R$ 620.000 em indenizações de sinistros ocorridos (que incluem gastos correlatos). A sinistralidade (S) foi então de 62%.</p>
-<p>Nesse mesmo ano, a seguradora dispendeu com comissões de corretagem e agenciamento (custos de aquisição) R$ 180.000 e com despesas administrativas R$ 200.0000. O índice de despesas de comercialização (IDC) e o índice de despesas administrativas (IDA) foram, respectivamente, de 18% e 20%.</p>
+<h3>Contato com o segurado</h3>
 
+<p>
+
+Muitos sinistros não são nítidos e dão margem a dúvidas sobre os fatos e valores envolvidos. Depois de ter reunido essas informações, pode ser necessário que o regulador se reúna com o segurado e eventuais testemunhas. O regulador deve explicar ao segurado que a apólice exige que ele prove seu sinistro para a seguradora. Para oferecer o melhor serviço possível e agir de boa-fé, muitas seguradoras contratam reguladores independentes para ajudar o segurado a comprovar a perda.
+
+</p>
 
 `;
 let Session_38 = {

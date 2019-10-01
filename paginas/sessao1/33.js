@@ -1,9 +1,15 @@
 
 const view /** HTML */ = `
 
-<br><h3>Avaliação das exposições a sinistros (risco)</h3><br>
-<p>Existe uma troca entre a necessidade de informação e o custo para obtê-la. Nesta etapa, informações são coletadas sobre o risco do seguro proposto. Os subscritores devem entender as atividades, operações e caráter de cada candidato e avaliar a necessidade de informação e o custo para obtê-la. Por exemplo, é provável que um subscritor investigue minuciosamente uma fábrica que usa derivados de petróleo como matéria prima. A inspeção de risco é então essencial. Ao contrário, ela não é geralmente necessária para um seguro de loja de varejo no shopping center da cidade. </p>
-
+<br><h3>Medição dos resultados da subscrição</h3><br>
+<p>As seguradoras devem ser capazes de pagar as indenizações de sinistros e as demais despesas e obter um lucro para remunerar seus acionistas. Para determinar se uma seguradora é bem-sucedida é preciso examinar alguns índices de desempenho. São eles: </p>
+<ul>
+<li>A sinistralidade (S), que é a razão percentual entre as indenizações de sinistros ocorridos e os prêmios ganhos</li>
+<li>O índice de despesas de comercialização (IDC), que é a razão percentual entre as despesas de intermediação (no Brasil chamadas de “custos de aquisição”) e os prêmios ganhos</li>
+<li>O índice de despesas administrativas (IDA), que é a razão percentual entre as despesas administrativas (pessoal, localização, publicidade etc) e os prêmios ganhos</li>
+<li>O índice combinado (IC), que a soma dos índices acima (S + IDC + IDA)</li>
+<li>O índice combinado amplo (ICA), que é a razão percentual entre a soma das indenizações de sinistros, dos custos de aquisição e das despesas administrativas sobre a soma dos prêmios ganhos mais as receitas financeiras.</li>
+</ul>
 
 `;
 let Session_33 = {
