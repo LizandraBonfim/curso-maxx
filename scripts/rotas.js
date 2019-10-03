@@ -29,6 +29,7 @@ import Session_25 from '../paginas/sessao1/25.js';
 import Session_26 from '../paginas/sessao1/26.js';
 import Session_27 from '../paginas/sessao1/27.js';
 import Session_28 from '../paginas/sessao1/28.js';
+import questoes from '../paginas/sessao1/questoes.js';
 import Session_29 from '../paginas/sessao1/29.js';
 import Session_30 from '../paginas/sessao1/30.js';
 import Session_31 from '../paginas/sessao1/31.js';
@@ -44,7 +45,6 @@ import Session_40 from '../paginas/sessao1/40.js';
 import Session_41 from '../paginas/sessao1/41.js';
 import Session_42 from '../paginas/sessao1/42.js';
 import Session_43 from '../paginas/sessao1/43.js';
-import questoes from '../paginas/sessao1/questoes.js';
 
 
 // List of supported routes. Any url other than these routes will throw a 404 error
@@ -78,6 +78,7 @@ const Rotas = {
   , '/session_26':    Session_26
   , '/session_27':    Session_27
   , '/session_28':    Session_28
+  , '/questoes':    questoes
   , '/session_29':    Session_29
   , '/session_30':    Session_30
   , '/session_31':    Session_31
@@ -93,7 +94,6 @@ const Rotas = {
   , '/session_41':    Session_41
   , '/session_42':    Session_42
   , '/session_43':    Session_43
-  , '/questoes':    questoes
   
 
 
